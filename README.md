@@ -2,7 +2,7 @@ A simple platform jumping game where you must keep jumping upwards on platforms 
 
 Written in Swift
 
-Uses: 
+Uses:<br />
 SpriteKit, GameKit, and CoreMotion for gameplay<br />
 AVFoundation to play song files<br />
 Youtube API to search songs online<br />
