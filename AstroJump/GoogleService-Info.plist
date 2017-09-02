@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>31959826424-7ubahs3d1rksejtamqsgbvkls3brgg5j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.31959826424-7ubahs3d1rksejtamqsgbvkls3brgg5j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDVkM1zqnYhe7VOkZr7XXzLbQm-oBhIL-Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>31959826424</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.calpoly.csc.JamesLy</string>
+	<key>PROJECT_ID</key>
+	<string>sunny-tea-167800</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sunny-tea-167800.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:31959826424:ios:85a853748ddb3a4d</string>
+	<key>DATABASE_URL</key>
+	<string>https://sunny-tea-167800.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,1178 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1542908CA477C300D0B39214F278E1 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A42E5090A641BEBBECCDDB9D0D8516C /* YTPlayerView.m */; };
+		0DFFA705DC6BE8CC3BE814812DC8E823 /* Pods-AstroJump-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05951D9B51DF1F0793289215931D5F43 /* Pods-AstroJump-dummy.m */; };
+		1D8E62F6E731185C132CB74DD582E71F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4582E39C1C37BA06BD5EAC8A9CD744A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 92A8C42785CC53EAED9603A43D71B3EB /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71AC3464D49A52CBC2C1603AC4CAF5CE /* youtube-ios-player-helper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A274E2974E873452759B356A31720A /* youtube-ios-player-helper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C1CDA29F8C5A52853FDFEB671F3587A /* Pods-AstroJumpTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F57532A8A40265EA86C9C8079E890EE /* Pods-AstroJumpTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F062D47FD46D4030B27D1111661DB6A /* Pods-AstroJumpUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C45CC0520E758E6279639C708057E1F3 /* Pods-AstroJumpUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB6F9EBA65E42680F78F8209B4B28CC /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A1DB3139A87B624E88108ECC2CEF5A8A /* Pods-AstroJumpUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C08181D8DA312AADBDF3D1D975D2BD7 /* Pods-AstroJumpUITests-dummy.m */; };
+		A232314FDA359BFF946FCBD63A3D78BA /* YTPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = E18E6DEC2F717327BDA3308C409C6130 /* YTPlayerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB1930DACA812FD83EAAB0D6C2B8D89E /* youtube-ios-player-helper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B4C48A5853FB337A59ADE4C9761096 /* youtube-ios-player-helper-dummy.m */; };
+		AFCF245736FE791FD829E219B572D9BD /* Pods-AstroJumpTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E95255D02EC6FD1E975DF1E1306A54A0 /* Pods-AstroJumpTests-dummy.m */; };
+		B3FF92CFCE5CD39760D52027B1E2264E /* Assets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C72A0F8D4C0A4A67EDCC9A45628EE87D /* Assets.bundle */; };
+		B58B50FD8881BB08A47B1B5788847305 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = DEC2FA5E03A7684E50AD42F6EC51AA2A /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC3C5EC8191C6558EA2CF4D68698AED2 /* Pods-AstroJump-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 214BF3A5C068850FC49662ED4DB03F3E /* Pods-AstroJump-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F555F66954FAB8350419B6C4BF93A20B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C55F3B37A8015542BEB62EDD73A88A8 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40193AEC2790575E20FF7BDBF6750942 /* GoogleToolboxForMac-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43293E3212787A24AC50546A93709307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		DA03D03B28D8C3A349E58FE5FF22920F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D33615CDB9F91C9DFFBBC16A1C4DD5D;
+			remoteInfo = "youtube-ios-player-helper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036CFC5048AF49E3927D2663C3B928F7 /* Pods-AstroJumpUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AstroJumpUITests-frameworks.sh"; sourceTree = "<group>"; };
+		05951D9B51DF1F0793289215931D5F43 /* Pods-AstroJump-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AstroJump-dummy.m"; sourceTree = "<group>"; };
+		09257D504ABD35F82BA4BA3CDE43257F /* Pods-AstroJumpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AstroJumpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0BEC2F56A3B6B55A6E66244ED53FC334 /* youtube-ios-player-helper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-prefix.pch"; sourceTree = "<group>"; };
+		1B3C11A6EA37AC52F90CE9FFCD50DAD8 /* Pods-AstroJump.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AstroJump.modulemap"; sourceTree = "<group>"; };
+		1F57532A8A40265EA86C9C8079E890EE /* Pods-AstroJumpTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AstroJumpTests-umbrella.h"; sourceTree = "<group>"; };
+		214BF3A5C068850FC49662ED4DB03F3E /* Pods-AstroJump-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AstroJump-umbrella.h"; sourceTree = "<group>"; };
+		23EAA012CD343992E4E5A98B843651B3 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		28F204BDD2621F3F13602AF801CB6A1C /* youtube-ios-player-helper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "youtube-ios-player-helper.modulemap"; sourceTree = "<group>"; };
+		2A42E5090A641BEBBECCDDB9D0D8516C /* YTPlayerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YTPlayerView.m; path = Classes/YTPlayerView.m; sourceTree = "<group>"; };
+		2A6379C8235AB7827D7B7EBD1D642866 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		2B1298AD3C52120FCB9265D56C882E9C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D8887F51D748EBED90F241379420583 /* youtube-ios-player-helper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.xcconfig"; sourceTree = "<group>"; };
+		3068F6CBD2B4343F3B5703B16606ABA1 /* Pods-AstroJumpTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AstroJumpTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		39B7B95C54C0FF18B5D3828EFE29FC16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C861DBE59F710CB32CFE363046A5C9E /* Pods-AstroJumpUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AstroJumpUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E8B8190AF1338A4DE40B1311A3D3F80 /* Pods-AstroJumpTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AstroJumpTests-resources.sh"; sourceTree = "<group>"; };
+		40193AEC2790575E20FF7BDBF6750942 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		41CD6741E10B5A551B10224D59E6986E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474710CDE507B0ECCCCC2A7B147F30C0 /* Pods-AstroJump-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AstroJump-frameworks.sh"; sourceTree = "<group>"; };
+		57C9A1DDFAF6219AD1121B5D1520608C /* Pods-AstroJump-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AstroJump-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59267444DC052DF4CD2032A180959E3D /* Pods-AstroJumpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AstroJumpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A5A1632C1C05F64E61B8CA74E08F8E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C08181D8DA312AADBDF3D1D975D2BD7 /* Pods-AstroJumpUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AstroJumpUITests-dummy.m"; sourceTree = "<group>"; };
+		5C1041C96FEE6EC63BC3F0FEC28ABA1D /* Pods-AstroJump-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AstroJump-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C47C1FB7FB5786E1882DE8B10B523B7 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		65BC708319392B2FE95D1EBD7AED2E0C /* Pods-AstroJumpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AstroJumpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A41B88C387220C04E1CD4D3144A6EC7 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		6C55F3B37A8015542BEB62EDD73A88A8 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		833EE95FB0C88D33A4A40C3FA1BFA2A4 /* Pods-AstroJumpUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AstroJumpUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8942F911CFEBEBB7024A93540661BE7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C91F63321E4673E0474DBDAB29A4074 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		92A8C42785CC53EAED9603A43D71B3EB /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C72DE9FF8554011F2B218E23FCA433B /* Pods_AstroJumpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AstroJumpUITests.framework; path = "Pods-AstroJumpUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF34418A1807BFE0E2287CA5396F1D6 /* Pods-AstroJump.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AstroJump.debug.xcconfig"; sourceTree = "<group>"; };
+		A7B4C48A5853FB337A59ADE4C9761096 /* youtube-ios-player-helper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "youtube-ios-player-helper-dummy.m"; sourceTree = "<group>"; };
+		B0A977E280392D9B4FB2C23B514D7322 /* Pods-AstroJumpTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AstroJumpTests.modulemap"; sourceTree = "<group>"; };
+		B1CF2D615052A4E087135FAFA21F8405 /* Pods-AstroJump.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AstroJump.release.xcconfig"; sourceTree = "<group>"; };
+		B3A274E2974E873452759B356A31720A /* youtube-ios-player-helper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-umbrella.h"; sourceTree = "<group>"; };
+		BA79BA9BDFA18C3E39888C9E99FD9F98 /* Pods-AstroJump-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AstroJump-resources.sh"; sourceTree = "<group>"; };
+		C45CC0520E758E6279639C708057E1F3 /* Pods-AstroJumpUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AstroJumpUITests-umbrella.h"; sourceTree = "<group>"; };
+		C4D59FC6A0E89162993198B4FFC55DC1 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		C6B9397B4440E64D8120D3B2FA2E01C1 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		C70F836E6E00C53DB371989B2A0F277E /* Pods-AstroJumpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AstroJumpTests.release.xcconfig"; sourceTree = "<group>"; };
+		C72A0F8D4C0A4A67EDCC9A45628EE87D /* Assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Assets.bundle; path = "youtube-ios-player-helper/Assets.bundle"; sourceTree = "<group>"; };
+		D456A57C4F4ADC12F18F0761AB993350 /* Pods_AstroJump.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AstroJump.framework; path = "Pods-AstroJump.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5E4438EEBEB943EF709EC71BECD51F /* Pods-AstroJumpTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AstroJumpTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DD5F1A2021C5C96955601C90C6857888 /* Pods_AstroJumpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AstroJumpTests.framework; path = "Pods-AstroJumpTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC2FA5E03A7684E50AD42F6EC51AA2A /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		E18E6DEC2F717327BDA3308C409C6130 /* YTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = Classes/YTPlayerView.h; sourceTree = "<group>"; };
+		E420CA29C225AFA183862EEEF62DB206 /* Pods-AstroJumpTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AstroJumpTests-frameworks.sh"; sourceTree = "<group>"; };
+		E95255D02EC6FD1E975DF1E1306A54A0 /* Pods-AstroJumpTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AstroJumpTests-dummy.m"; sourceTree = "<group>"; };
+		ECDE3C093239BB63534B986D425ABCBD /* youtube_ios_player_helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = youtube_ios_player_helper.framework; path = "youtube-ios-player-helper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9A4000A247A521DDFAE55474925E62 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		F2ED527E660EDFBD47A8974F5CF606E0 /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		F590113F61B9E65A6AB38A8DA83E69A9 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F633D486DB9D89A5A912ED23A4D0A200 /* Pods-AstroJumpUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AstroJumpUITests-resources.sh"; sourceTree = "<group>"; };
+		FBB6F9EBA65E42680F78F8209B4B28CC /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		FC384CEB83AAB5FB2C4695A138B33F5F /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		FDAC864CD1CB16F711F847F21271AE44 /* Pods-AstroJumpUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AstroJumpUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E7DF2A7AE68E023F79D78A5EBCAD892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58B50FD8881BB08A47B1B5788847305 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34F18513499CD5A52E4F7406C51573A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8E62F6E731185C132CB74DD582E71F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9206CE2593C58B7DA00BFE292000A136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F555F66954FAB8350419B6C4BF93A20B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0428D0E3A0967843A3F1227DFA76EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4582E39C1C37BA06BD5EAC8A9CD744A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D51748565CFEB9490FBA7DA993C5C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CB152AD97055A693B5F99347D6569C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC384CEB83AAB5FB2C4695A138B33F5F /* FirebaseCore.framework */,
+				6A41B88C387220C04E1CD4D3144A6EC7 /* FirebaseCoreDiagnostics.framework */,
+				5C47C1FB7FB5786E1882DE8B10B523B7 /* FirebaseNanoPB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1895BC7894BED59EAF3D41D4B8B77DC9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C72A0F8D4C0A4A67EDCC9A45628EE87D /* Assets.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2DB6103E1FD3C9038943B78499739A64 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				E59B3349CE6D74DF243248D73FC2E5EB /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		3F5EB4F46E35FCB44DEE8217AE10C223 /* youtube-ios-player-helper */ = {
+			isa = PBXGroup;
+			children = (
+				E18E6DEC2F717327BDA3308C409C6130 /* YTPlayerView.h */,
+				2A42E5090A641BEBBECCDDB9D0D8516C /* YTPlayerView.m */,
+				1895BC7894BED59EAF3D41D4B8B77DC9 /* Resources */,
+				42E85C476F005C6FC318DDDB7560C9B8 /* Support Files */,
+			);
+			name = "youtube-ios-player-helper";
+			path = "youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		408A467854148A9DBFA639FDF1D96CD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6B9397B4440E64D8120D3B2FA2E01C1 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42E85C476F005C6FC318DDDB7560C9B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8942F911CFEBEBB7024A93540661BE7F /* Info.plist */,
+				28F204BDD2621F3F13602AF801CB6A1C /* youtube-ios-player-helper.modulemap */,
+				2D8887F51D748EBED90F241379420583 /* youtube-ios-player-helper.xcconfig */,
+				A7B4C48A5853FB337A59ADE4C9761096 /* youtube-ios-player-helper-dummy.m */,
+				0BEC2F56A3B6B55A6E66244ED53FC334 /* youtube-ios-player-helper-prefix.pch */,
+				B3A274E2974E873452759B356A31720A /* youtube-ios-player-helper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/youtube-ios-player-helper";
+			sourceTree = "<group>";
+		};
+		5D0C7F67B9E9A680B833F97C9204513F /* Pods-AstroJumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				39B7B95C54C0FF18B5D3828EFE29FC16 /* Info.plist */,
+				B0A977E280392D9B4FB2C23B514D7322 /* Pods-AstroJumpTests.modulemap */,
+				3068F6CBD2B4343F3B5703B16606ABA1 /* Pods-AstroJumpTests-acknowledgements.markdown */,
+				DD5E4438EEBEB943EF709EC71BECD51F /* Pods-AstroJumpTests-acknowledgements.plist */,
+				E95255D02EC6FD1E975DF1E1306A54A0 /* Pods-AstroJumpTests-dummy.m */,
+				E420CA29C225AFA183862EEEF62DB206 /* Pods-AstroJumpTests-frameworks.sh */,
+				3E8B8190AF1338A4DE40B1311A3D3F80 /* Pods-AstroJumpTests-resources.sh */,
+				1F57532A8A40265EA86C9C8079E890EE /* Pods-AstroJumpTests-umbrella.h */,
+				59267444DC052DF4CD2032A180959E3D /* Pods-AstroJumpTests.debug.xcconfig */,
+				C70F836E6E00C53DB371989B2A0F277E /* Pods-AstroJumpTests.release.xcconfig */,
+			);
+			name = "Pods-AstroJumpTests";
+			path = "Target Support Files/Pods-AstroJumpTests";
+			sourceTree = "<group>";
+		};
+		6BF82834711BC91FE093E88DB31B77BC /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				D717EDE8BA39221F88BFF576ED400A99 /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		71ED184DA715DBABAF01D0211B1D8378 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				8439E1C4C536B9A0CA531859D2C0BCD9 /* Defines */,
+				776B63D873FA57AF36E4838F6B59B855 /* NSData+zlib */,
+				784EA14407D3928BEC4C7DA796636023 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		776B63D873FA57AF36E4838F6B59B855 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				DEC2FA5E03A7684E50AD42F6EC51AA2A /* GTMNSData+zlib.h */,
+				6C55F3B37A8015542BEB62EDD73A88A8 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		784EA14407D3928BEC4C7DA796636023 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A4000A247A521DDFAE55474925E62 /* GoogleToolboxForMac.modulemap */,
+				23EAA012CD343992E4E5A98B843651B3 /* GoogleToolboxForMac.xcconfig */,
+				40193AEC2790575E20FF7BDBF6750942 /* GoogleToolboxForMac-dummy.m */,
+				F2ED527E660EDFBD47A8974F5CF606E0 /* GoogleToolboxForMac-prefix.pch */,
+				FBB6F9EBA65E42680F78F8209B4B28CC /* GoogleToolboxForMac-umbrella.h */,
+				2B1298AD3C52120FCB9265D56C882E9C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CFFF4679A7F451B0CBD516E27EEE1315 /* Pods */,
+				DBF3B6BFDBCCD10C475149AB1EA0D59E /* Products */,
+				ECF4387A901901269F34C29D96E4A455 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82DC4F7E50DBC2940879FC65368ED118 /* Pods-AstroJumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41CD6741E10B5A551B10224D59E6986E /* Info.plist */,
+				FDAC864CD1CB16F711F847F21271AE44 /* Pods-AstroJumpUITests.modulemap */,
+				833EE95FB0C88D33A4A40C3FA1BFA2A4 /* Pods-AstroJumpUITests-acknowledgements.markdown */,
+				3C861DBE59F710CB32CFE363046A5C9E /* Pods-AstroJumpUITests-acknowledgements.plist */,
+				5C08181D8DA312AADBDF3D1D975D2BD7 /* Pods-AstroJumpUITests-dummy.m */,
+				036CFC5048AF49E3927D2663C3B928F7 /* Pods-AstroJumpUITests-frameworks.sh */,
+				F633D486DB9D89A5A912ED23A4D0A200 /* Pods-AstroJumpUITests-resources.sh */,
+				C45CC0520E758E6279639C708057E1F3 /* Pods-AstroJumpUITests-umbrella.h */,
+				09257D504ABD35F82BA4BA3CDE43257F /* Pods-AstroJumpUITests.debug.xcconfig */,
+				65BC708319392B2FE95D1EBD7AED2E0C /* Pods-AstroJumpUITests.release.xcconfig */,
+			);
+			name = "Pods-AstroJumpUITests";
+			path = "Target Support Files/Pods-AstroJumpUITests";
+			sourceTree = "<group>";
+		};
+		8439E1C4C536B9A0CA531859D2C0BCD9 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				92A8C42785CC53EAED9603A43D71B3EB /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		86F37582EC65DFDA46277F8487598996 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A6379C8235AB7827D7B7EBD1D642866 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D72F78C862F62A9536CF988397786F6 /* Pods-AstroJump */ = {
+			isa = PBXGroup;
+			children = (
+				5A5A1632C1C05F64E61B8CA74E08F8E7 /* Info.plist */,
+				1B3C11A6EA37AC52F90CE9FFCD50DAD8 /* Pods-AstroJump.modulemap */,
+				57C9A1DDFAF6219AD1121B5D1520608C /* Pods-AstroJump-acknowledgements.markdown */,
+				5C1041C96FEE6EC63BC3F0FEC28ABA1D /* Pods-AstroJump-acknowledgements.plist */,
+				05951D9B51DF1F0793289215931D5F43 /* Pods-AstroJump-dummy.m */,
+				474710CDE507B0ECCCCC2A7B147F30C0 /* Pods-AstroJump-frameworks.sh */,
+				BA79BA9BDFA18C3E39888C9E99FD9F98 /* Pods-AstroJump-resources.sh */,
+				214BF3A5C068850FC49662ED4DB03F3E /* Pods-AstroJump-umbrella.h */,
+				9CF34418A1807BFE0E2287CA5396F1D6 /* Pods-AstroJump.debug.xcconfig */,
+				B1CF2D615052A4E087135FAFA21F8405 /* Pods-AstroJump.release.xcconfig */,
+			);
+			name = "Pods-AstroJump";
+			path = "Target Support Files/Pods-AstroJump";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFFF4679A7F451B0CBD516E27EEE1315 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DB6103E1FD3C9038943B78499739A64 /* Firebase */,
+				F2752FDD3A603A7E83CF482952D745F3 /* FirebaseAnalytics */,
+				D434698EAB94B1BEEC28AAEF946EF998 /* FirebaseCore */,
+				6BF82834711BC91FE093E88DB31B77BC /* FirebaseDatabase */,
+				E22E29E1E60FEE94317F3582D08C7ED5 /* FirebaseInstanceID */,
+				71ED184DA715DBABAF01D0211B1D8378 /* GoogleToolboxForMac */,
+				3F5EB4F46E35FCB44DEE8217AE10C223 /* youtube-ios-player-helper */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D434698EAB94B1BEEC28AAEF946EF998 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				0CB152AD97055A693B5F99347D6569C8 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		D717EDE8BA39221F88BFF576ED400A99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C91F63321E4673E0474DBDAB29A4074 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBF3B6BFDBCCD10C475149AB1EA0D59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F590113F61B9E65A6AB38A8DA83E69A9 /* GoogleToolboxForMac.framework */,
+				D456A57C4F4ADC12F18F0761AB993350 /* Pods_AstroJump.framework */,
+				DD5F1A2021C5C96955601C90C6857888 /* Pods_AstroJumpTests.framework */,
+				9C72DE9FF8554011F2B218E23FCA433B /* Pods_AstroJumpUITests.framework */,
+				ECDE3C093239BB63534B986D425ABCBD /* youtube_ios_player_helper.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E22E29E1E60FEE94317F3582D08C7ED5 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				408A467854148A9DBFA639FDF1D96CD8 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		E59B3349CE6D74DF243248D73FC2E5EB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C4D59FC6A0E89162993198B4FFC55DC1 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		ECF4387A901901269F34C29D96E4A455 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D72F78C862F62A9536CF988397786F6 /* Pods-AstroJump */,
+				5D0C7F67B9E9A680B833F97C9204513F /* Pods-AstroJumpTests */,
+				82DC4F7E50DBC2940879FC65368ED118 /* Pods-AstroJumpUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F2752FDD3A603A7E83CF482952D745F3 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				86F37582EC65DFDA46277F8487598996 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32E1608369BCEBE26F729C3C86C130C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F062D47FD46D4030B27D1111661DB6A /* Pods-AstroJumpUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		481AC4350820757216B06A906B91C3D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AC3464D49A52CBC2C1603AC4CAF5CE /* youtube-ios-player-helper-umbrella.h in Headers */,
+				A232314FDA359BFF946FCBD63A3D78BA /* YTPlayerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5138FEFA62040902239E261E6555C73F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1CDA29F8C5A52853FDFEB671F3587A /* Pods-AstroJumpTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754CCBB697FAB08DB39E90A41A828F3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC3C5EC8191C6558EA2CF4D68698AED2 /* Pods-AstroJump-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = F590113F61B9E65A6AB38A8DA83E69A9 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9D33615CDB9F91C9DFFBBC16A1C4DD5D /* youtube-ios-player-helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0924C40B05586FE96E38FD7A8CD77B2C /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */;
+			buildPhases = (
+				2F3428A79486EA4302010E7545A7843C /* Sources */,
+				34F18513499CD5A52E4F7406C51573A8 /* Frameworks */,
+				481AC4350820757216B06A906B91C3D8 /* Headers */,
+				3DFBB9FAA80FEE56450598F208E06F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "youtube-ios-player-helper";
+			productName = "youtube-ios-player-helper";
+			productReference = ECDE3C093239BB63534B986D425ABCBD /* youtube_ios_player_helper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A021CE0B07BC996231231DA902491E60 /* Pods-AstroJumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0667B98D9F0E596BFF8D714DF90D0048 /* Build configuration list for PBXNativeTarget "Pods-AstroJumpUITests" */;
+			buildPhases = (
+				2AE0EF31793A6B1D80B6F71616CD41AA /* Sources */,
+				0E7DF2A7AE68E023F79D78A5EBCAD892 /* Frameworks */,
+				32E1608369BCEBE26F729C3C86C130C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AstroJumpUITests";
+			productName = "Pods-AstroJumpUITests";
+			productReference = 9C72DE9FF8554011F2B218E23FCA433B /* Pods_AstroJumpUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFFD1230A9506B515AE551F8CB98A6A2 /* Pods-AstroJump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7AB459F0857AA4E0496D9C0123F0DD5 /* Build configuration list for PBXNativeTarget "Pods-AstroJump" */;
+			buildPhases = (
+				0D742F30D12A999E03731CBA98528438 /* Sources */,
+				9206CE2593C58B7DA00BFE292000A136 /* Frameworks */,
+				754CCBB697FAB08DB39E90A41A828F3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D240E997BB205AE5486342810474BFEC /* PBXTargetDependency */,
+				3E431C460CA3536DDEC4731D6D55DE43 /* PBXTargetDependency */,
+			);
+			name = "Pods-AstroJump";
+			productName = "Pods-AstroJump";
+			productReference = D456A57C4F4ADC12F18F0761AB993350 /* Pods_AstroJump.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E89D16169E7B4721BBB21E3547B24807 /* Pods-AstroJumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9301D9A1DE9D38807873BB8699F3E8 /* Build configuration list for PBXNativeTarget "Pods-AstroJumpTests" */;
+			buildPhases = (
+				EA3E4D6008C7803DA93084100A765939 /* Sources */,
+				EA0428D0E3A0967843A3F1227DFA76EF /* Frameworks */,
+				5138FEFA62040902239E261E6555C73F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AstroJumpTests";
+			productName = "Pods-AstroJumpTests";
+			productReference = DD5F1A2021C5C96955601C90C6857888 /* Pods_AstroJumpTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DBF3B6BFDBCCD10C475149AB1EA0D59E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				CFFD1230A9506B515AE551F8CB98A6A2 /* Pods-AstroJump */,
+				E89D16169E7B4721BBB21E3547B24807 /* Pods-AstroJumpTests */,
+				A021CE0B07BC996231231DA902491E60 /* Pods-AstroJumpUITests */,
+				9D33615CDB9F91C9DFFBBC16A1C4DD5D /* youtube-ios-player-helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DFBB9FAA80FEE56450598F208E06F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3FF92CFCE5CD39760D52027B1E2264E /* Assets.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D742F30D12A999E03731CBA98528438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DFFA705DC6BE8CC3BE814812DC8E823 /* Pods-AstroJump-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE0EF31793A6B1D80B6F71616CD41AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DB3139A87B624E88108ECC2CEF5A8A /* Pods-AstroJumpUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3428A79486EA4302010E7545A7843C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1930DACA812FD83EAAB0D6C2B8D89E /* youtube-ios-player-helper-dummy.m in Sources */,
+				0A1542908CA477C300D0B39214F278E1 /* YTPlayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3E4D6008C7803DA93084100A765939 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFCF245736FE791FD829E219B572D9BD /* Pods-AstroJumpTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E431C460CA3536DDEC4731D6D55DE43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "youtube-ios-player-helper";
+			target = 9D33615CDB9F91C9DFFBBC16A1C4DD5D /* youtube-ios-player-helper */;
+			targetProxy = DA03D03B28D8C3A349E58FE5FF22920F /* PBXContainerItemProxy */;
+		};
+		D240E997BB205AE5486342810474BFEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 43293E3212787A24AC50546A93709307 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08258EB6E950DE77C688071D0FAEE164 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8887F51D748EBED90F241379420583 /* youtube-ios-player-helper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/youtube-ios-player-helper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = youtube_ios_player_helper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1CCA3C2790CF44CBFDB5457AA9A45448 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59267444DC052DF4CD2032A180959E3D /* Pods-AstroJumpTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AstroJumpTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AstroJumpTests/Pods-AstroJumpTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AstroJumpTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		23F888C5144048977BE04751DE004CD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65BC708319392B2FE95D1EBD7AED2E0C /* Pods-AstroJumpUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AstroJumpUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AstroJumpUITests/Pods-AstroJumpUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AstroJumpUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E3BB37312E5D4518EDFAD78B7C89440 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23EAA012CD343992E4E5A98B843651B3 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		914BA5F73BFFE352635A10011C485809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09257D504ABD35F82BA4BA3CDE43257F /* Pods-AstroJumpUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AstroJumpUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AstroJumpUITests/Pods-AstroJumpUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AstroJumpUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9BF416379877365AA93B91CEEF17F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8887F51D748EBED90F241379420583 /* youtube-ios-player-helper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/youtube-ios-player-helper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = youtube_ios_player_helper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23EAA012CD343992E4E5A98B843651B3 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D074002363B6A0F2EFCB9752628C49F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C70F836E6E00C53DB371989B2A0F277E /* Pods-AstroJumpTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AstroJumpTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AstroJumpTests/Pods-AstroJumpTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AstroJumpTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD9CB461FE6EF94177E7DE8561C49DF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1CF2D615052A4E087135FAFA21F8405 /* Pods-AstroJump.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AstroJump/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AstroJump/Pods-AstroJump.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AstroJump;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E51A4786B3BC4A85075942C90267CE52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF34418A1807BFE0E2287CA5396F1D6 /* Pods-AstroJump.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AstroJump/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AstroJump/Pods-AstroJump.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AstroJump;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0667B98D9F0E596BFF8D714DF90D0048 /* Build configuration list for PBXNativeTarget "Pods-AstroJumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914BA5F73BFFE352635A10011C485809 /* Debug */,
+				23F888C5144048977BE04751DE004CD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0924C40B05586FE96E38FD7A8CD77B2C /* Build configuration list for PBXNativeTarget "youtube-ios-player-helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9BF416379877365AA93B91CEEF17F8C /* Debug */,
+				08258EB6E950DE77C688071D0FAEE164 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE9B55DCDA299EAE202F6DB76CAA485A /* Debug */,
+				4E3BB37312E5D4518EDFAD78B7C89440 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9301D9A1DE9D38807873BB8699F3E8 /* Build configuration list for PBXNativeTarget "Pods-AstroJumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CCA3C2790CF44CBFDB5457AA9A45448 /* Debug */,
+				D074002363B6A0F2EFCB9752628C49F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7AB459F0857AA4E0496D9C0123F0DD5 /* Build configuration list for PBXNativeTarget "Pods-AstroJump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E51A4786B3BC4A85075942C90267CE52 /* Debug */,
+				DD9CB461FE6EF94177E7DE8561C49DF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

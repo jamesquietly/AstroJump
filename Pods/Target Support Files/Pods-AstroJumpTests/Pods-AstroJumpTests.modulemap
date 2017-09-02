@@ -1,0 +1,6 @@
+framework module Pods_AstroJumpTests {
+  umbrella header "Pods-AstroJumpTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
