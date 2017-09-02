@@ -2,7 +2,7 @@ A simple platform jumping game where you must keep jumping upwards on platforms 
 
 Gamplay mechanics:<br />
 Tilt the devive left or right to move the player left or right<br />
-Player will move upward if the land on a platform<br />
+Player will move upward if they land on a platform<br />
 
 Written in Swift
 
